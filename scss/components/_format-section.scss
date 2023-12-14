@@ -14,8 +14,8 @@
   );
 }
 .format-card {
+  position: relative;
   transition: transform 0.3s;
-  border: 2px solid black;
   height: 444px;
   border-radius: 16px;
   padding: 24px;
@@ -37,8 +37,19 @@
 }
 .formats-title {
   margin-bottom: 80px;
+  color: var(
+    --color-primary-li
+  );
 }
 .format-text {
   font-size: 14px;
   font-weight: 300;
+}
+.format-image {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
