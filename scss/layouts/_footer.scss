@@ -1,0 +1,73 @@
+.footer {
+  background-image: url(/Images/Footer1.png);
+  background-color: var(
+    --color-primary-dark
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 32px 0;
+  position: relative;
+}
+.footer::before,
+.footer::after {
+  bottom: 0;
+  position: absolute;
+  content: "";
+  background-repeat: no-repeat;
+}
+.footer::before {
+  left: 0;
+  width: 180px;
+  height: 120px;
+  background-image: url(/Images/Baton1.png);
+}
+.footer::after {
+  width: 380px;
+  height: 190px;
+  background-image: url(/Images/Baton2.png);
+  right: 0;
+}
+.footer-container {
+  display: flex;
+  gap: 20px;
+}
+.footer-nav,
+.footer-address {
+  display: flex;
+  flex-basis: 50%;
+}
+.footer-logo,
+.footer-menu {
+  flex-grow: 1;
+}
+.address-list,
+.address-info {
+  flex-grow: 1;
+}
+.address-link {
+  font-size: 16px;
+  font-weight: 300;
+  color: var(
+    --color-primary-light
+  );
+  text-decoration: none;
+}
+.address-link:hover {
+  color: var(
+    --color-brand-normal
+  );
+}
+.address-copyright {
+  font-size: 14px;
+}
+.address-icon {
+  fill: var(
+    --color-primary-light
+  );
+}
+.address-icon:hover {
+  fill: var(
+    --color-brand-normal
+  );
+}
