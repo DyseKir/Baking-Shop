@@ -13,18 +13,14 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-.hero-title {
-  color: var(
-    --color-primary-light
-  );
-  text-align: center;
-  font-size: 128px;
-  font-weight: 900;
-  margin-bottom: 0;
-}
-.hero-title .accent {
-  color: var(
-    --color-brand-normal
-  );
+
+  &__title {
+    color: var(
+      --color-primary-light
+    );
+    text-align: center;
+    font-size: 128px;
+    font-weight: 900;
+    margin-bottom: 0;
+  }
 }

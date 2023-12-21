@@ -1,15 +1,20 @@
-.formats-container {
-  display: flex;
-  gap: 32px;
-  align-items: center;
-}
-.formats-list {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-.formats-item {
-  flex-basis: calc(
-    (100% - 40px) / 3
-  );
+.formats-section {
+  &__container {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+  &__title {
+    margin-bottom: 80px;
+  }
+  &__list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  &__item {
+    flex-basis: calc(
+      (100% - 40px) / 3
+    );
+  }
 }

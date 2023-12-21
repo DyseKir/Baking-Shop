@@ -15,6 +15,12 @@
   align-items: center;
   transition: opacity 0.3s,
     visibility 0.3s;
+
+  &.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
 }
 .modal {
   padding: 128px;
@@ -28,14 +34,18 @@
   border-radius: 32px;
   position: relative;
   overflow-y: auto;
-}
-.modal-btn-close {
-  position: absolute;
-  top: 40px;
-  right: 40px;
-}
-.backdrop.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
+
+  &__btn-close {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+
+  &__form-field {
+    margin-bottom: 32px;
+  }
+  &__button {
+    display: block;
+    margin: 0 auto 24px;
+  }
 }

@@ -1,37 +1,25 @@
 @import "./utils/variables";
-
 @import "./base";
-
+@import "./utils/texts";
 @import "./utils/utils";
-
-@import "./layouts/section";
-
-@import "./layouts/container";
+@import "./utils/mixins";
 
 @import "./components/buttons";
-
+@import "./components/slide-button";
+@import "./components/chef-card";
+@import "./components/format-card";
+@import "./components/input";
 @import "./components/links";
 
-@import "./layouts/header";
-
-@import "./layouts/hero-section";
-
 @import "./layouts/advantages-section";
-
-@import "./layouts/traditions";
-
-@import "./layouts/chef-title";
-
-@import "./layouts/formats-section";
-
-@import "./components/format-card";
-
-@import "./components/slide-button";
-
+@import "./layouts/chef-section";
 @import "./layouts/contact-section";
-
+@import "./layouts/container";
 @import "./layouts/footer";
-
+@import "./layouts/form-terms";
+@import "./layouts/formats-section";
+@import "./layouts/header";
+@import "./layouts/hero-section";
 @import "./layouts/modal-window";
-
-@import "./layouts/form";
+@import "./layouts/section";
+@import "./layouts/traditions";
