@@ -8,6 +8,9 @@ ul {
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   color: var(
     --color-primary-dark
@@ -17,10 +20,15 @@ body {
   );
   font-family: "Poppins",
     sans-serif;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 300;
   line-height: 1.5;
   margin: 0;
+  
+  @media screen and (min-width: $bp-tablet) {
+    font-size: 18px;
+    font-weight: 400;
+  }
 }
 h1,
 h2,
@@ -36,4 +44,10 @@ a {
 }
 address {
   font-style: normal;
+}
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }

@@ -1,3 +1,4 @@
+@import "./utils/fonts";
 @import "./utils/variables";
 @import "./base";
 @import "./utils/texts";
@@ -10,7 +11,10 @@
 @import "./components/format-card";
 @import "./components/input";
 @import "./components/links";
+@import "./components/pagination";
 
+
+@import "./layouts/section";
 @import "./layouts/advantages-section";
 @import "./layouts/chef-section";
 @import "./layouts/contact-section";
@@ -20,6 +24,6 @@
 @import "./layouts/formats-section";
 @import "./layouts/header";
 @import "./layouts/hero-section";
+@import "./layouts/mobile-menu";
 @import "./layouts/modal-window";
-@import "./layouts/section";
 @import "./layouts/traditions";
